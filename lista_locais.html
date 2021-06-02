@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <head>
+            <title>Compartilha policia</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+        </head>
+    </head>
+    <body class="body_locais">
+        <nav>
+            <img class="icone" src="imagens/icone_hamburguer.png" alt="icone-hamburguer">
+            <a href='index.html' class="titulo">Compartilha Polícia</a>
+            <a href='novopost.html'><img class="icone" src="imagens/mais.png" alt="mais" ></a>
+        </nav>
+        <main>
+            <h2 class='enunciado'>Qual lugar você quer acompanhar?</h2>
+
+            <form class='escolher_local'>
+                <label class='pergunta' for="estados">Estado:</label>
+                <select class='box' name="estados" id="estados">
+                  <option value="todos">Todos</option>
+                  <option value="acre">Acre</option>
+                  <option value="alagoas">Alagoas</option>
+                  <option value="amapa">Amapá</option>
+                  <option value="amazonas">Amazonas</option>
+                  <option value="bahia">Bahia</option>
+                  <option value="ceara">Ceará</option>
+                  <option value="espiritosanto">Espírito Santo</option>
+                  <option value="goias">Goiás</option>
+                  <option value="maranhao">Maranhão</option>
+                  <option value="matogrosso">Mato Grosso</option>
+                  <option value="matogrossodosul">Mato Grosso do Sul</option>
+                  <option value="minasgerais">Minas Gerais</option>
+                  <option value="para">Pará</option>
+                  <option value="paraiba">Paraíba</option>
+                  <option value="pernambuco">Pernambuco</option>
+                  <option value="piaui">Piauí</option>
+                  <option value="riodejaneiro">Rio de Janeiro</option>
+                  <option value="riograndedosul">Rio Grande do Sul</option>
+                  <option value="riograndedonorte">Rio Grande do Norte</option>
+                  <option value="rondonia">Rondônia</option>
+                  <option value="roraima">Roraima</option>
+                  <option value="santacatarina">Santa Catarina</option>
+                  <option value="saopaulo">São Paulo</option>
+                  <option value="sergipe">Sergipe</option>
+                  <option value="tocantins">Tocantins</option>
+                </select>
+
+                <label class='pergunta' for="cidades">Cidade:</label>
+                <select class='box' name="cidades" id="cidades">
+                    <option value="todos">Todos</option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="guarulhos">Guarulhos</option>
+                    <option value="campinas">Campinas</option>
+                    <option value="saobernardodocampo">São Bernardo do Campo</option>
+                    <option value="saojosedoscampos">São José dos Campos</option>
+                    <option value="santoandre">Santo André</option>
+                    <option value="riberaopreto">Riberão Preto</option>
+                    <option value="osasco">Osasco</option>
+                    <option value="sorocaba">Sorocaba</option>
+                    <option value="maua">Mauá</option>
+                </select>
+                
+                <label class='pergunta' for="bairro">Bairro:</label>
+                <select class='box' name="bairro" id="bairro">
+                    <option value="todos">Todos</option>
+                    <option value="lapa">Lapa</option>
+                    <option value="altodepinheiros">Alto de Pinheiros</option>
+                    <option value="vilasonia">Vila Sônia</option>
+                    <option value="itaimbibi">Itaim Bibi</option>
+                    <option value="butanta">Butantã</option>
+                    <option value="jardimpaulista">Jardim Paulista</option>
+                    <option value="morumbi">Morumbi</option>
+                    <option value="jaguare">Jaguaré</option>
+                    <option value="jardimsaoluis">Jardim São Luís</option>
+                    <option value="sacomã">Sacomã</option>
+                    <option value="grajau">Grajaú</option>
+                    <option value="vilaandrade">Vila Andrade</option>
+                    <option value="cidadeademar">Cidade Ademar</option>
+                    <option value="vilamariana">Vila Mariana</option>
+                    <option value="pedreira">Pedreira</option>
+                    <option value="campolimpo">Campo Limpo</option>
+                    <option value="vilamedeiros">Vila Medeiros</option>
+                    <option value="limao">Limão</option>
+                    <option value="casaverde">Casa Verde</option>
+                    <option value="jacana">Jaçanã</option>
+                    <option value="anhanguera">Anhanguera</option>
+                    <option value="vilaguilherme">Vila Guilherme</option>
+                    <option value="santana">Santana</option>
+                    <option value="liberdade">Liberdade</option>
+                    <option value="cambuci">Cambuci</option>
+                    <option value="consolacao">Consolação</option>
+                    <option value="belavista">Bela Vista</option>
+                    <option value="se">Sé</option>
+                    <option value="bomretiro">Bom Retiro</option>
+                    <option value="santacecilia">Santa Cecília</option>
+                    <option value="republica">República</option>
+
+                </select>
+                <a href="feed_vm.html" class='submit'>Procurar <img class="icone" src="imagens/search.png" ></a>
+            </form>
+        </main>
+    </body>
+</html>
