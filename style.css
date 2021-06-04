@@ -68,19 +68,28 @@ nav{
 .historias{
     font-family: 'Noto Serif TC', serif;
     font-size: 1rem;
-    margin: 0 1rem 0 1rem;
+    margin: 0rem 1rem 0 1rem;
     padding: .3rem 1rem .3rem 1rem;
     border-bottom: .05rem solid black;
     border-left: .05rem solid black;
     border-right: .05rem solid black;
     text-align: justify;
     text-justify: auto;
+    height: 8rem;
+    width: 20rem;
+    position: relative;
+}
+
+.leia_mais{
+    position: absolute;
+    right:0.5rem;
+    bottom:0.5rem;
 }
 
 /*lista_locais*/
 
 .enunciado{
-    padding:5rem 0 3rem 0;
+    padding:3rem 0 3rem 0;
     text-align: center;
     font-size: 1.2rem;
     color: gray;
@@ -107,6 +116,9 @@ nav{
     width:100%;
     margin-bottom: 0.3rem;
     padding:.5rem;
+    border: 1px solid black;
+    border-radius:.1rem;
+    background-color: white;
 }
 
 .escolher_local{
@@ -168,17 +180,8 @@ nav{
 .rede{
     height:2rem;
     width:2rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-footer{
-    padding:2rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -187,6 +190,23 @@ footer{
     flex-direction: row;
 }
 
+.footer_historia{
+    padding-top:1.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.compartilhe{
+    text-align: center;
+}
+
+figure{
+    margin-top: 0.9rem;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /*Novo Post*/
 .main_novopost{
     width:100%;
@@ -197,14 +217,40 @@ footer{
     align-items:center;
 }
 
+.identificar{
+    display:flex;
+    flex-direction: row;
+}
+
+.form_historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .titulo_box{
-    margin-top: 2rem;
     height: 2rem;
     width: 20rem;
+    border: 1px solid black;
+    border-radius: .1rem;
+    margin-top:1rem;
 }
 
 .historia_box{
+    margin: 1rem 0;
     resize:none;
+    width:20rem;
+    height:25rem;
+    border: 1px solid black;
+    border-radius: .1rem;
+}
+
+.publicar{
+    background-color: #8CA5C2;
+    border: 1px solid black;
+    border-radius: .2rem;
+    width: 9rem;
+    height:2.5rem;
 }
 /*
 .anonimo{
