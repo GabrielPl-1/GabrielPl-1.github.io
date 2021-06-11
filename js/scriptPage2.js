@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    list = document.querySelector(".list")
-    list_titulo = document.querySelector(".list_titulo")
-    historia_head = document.querySelector(".historia_head")
-    historias = document.querySelector(".historias")
+    historia_head = document.querySelector(".historia_head_novo")
+    historias = document.querySelector(".historias_novo")
 
     texto = localStorage.getItem("myData")
     titulo = localStorage.getItem("myData2")
@@ -16,6 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     newElement.appendChild(content)
     newElement2.appendChild(content2)
 
-    list_titulo.appendChild(newElement2)
-    list.appendChild(newElement)
+    historia_head.appendChild(newElement2)
+    historias.appendChild(newElement)
 });

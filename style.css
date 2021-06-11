@@ -266,6 +266,33 @@ figure{
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
+/*feed novo*/
+.historias_novo{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1rem;
+    margin: 0rem 1rem 0 1rem;
+    padding: .3rem 1rem .3rem 1rem;
+    border-bottom: .05rem solid black;
+    border-left: .05rem solid black;
+    border-right: .05rem solid black;
+    text-align: justify;
+    text-justify: auto;
+    height: 8rem;
+    width: 20rem;
+    position: relative;
+}
+.historia_head_novo{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin: 2rem 1rem 0 1rem;
+    padding: .3rem 1rem .3rem 1rem;
+    border: .05rem solid black;
+    background-color: #8CA5C2;
+    text-align: center;
+}
+
 /*
 .anonimo{
     margin-left: 32.5rem;
