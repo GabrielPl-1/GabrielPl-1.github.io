@@ -236,7 +236,7 @@ figure{
     margin-top:1rem;
 }
 
-.historia_box{
+.dataToInput{
     margin: 1rem 0;
     resize:none;
     width:20rem;
@@ -245,12 +245,26 @@ figure{
     border-radius: .1rem;
 }
 
-.publicar{
+.sendData{
     background-color: #8CA5C2;
     border: 1px solid black;
     border-radius: .2rem;
     width: 9rem;
     height:2.5rem;
+}
+/* pagina nova*/
+
+.list_titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.list{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 /*
 .anonimo{
